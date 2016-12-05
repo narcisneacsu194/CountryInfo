@@ -52,3 +52,10 @@ Temporary Items
 .idea/modules.xml
 .idea/modules/CountryInfo.iml
 .idea/workspace.xml
+.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_7.xml
+.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_7.xml
+.idea/libraries/Gradle__com_fasterxml_classmate_1_3_1.xml
+.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_3.xml
+.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_3.xml
+*.xml
+*.iml
