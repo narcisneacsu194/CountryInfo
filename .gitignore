@@ -59,3 +59,15 @@ Temporary Items
 .idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_3.xml
 *.xml
 *.iml
+*.bin
+.gradle/2.13/taskArtifacts/cache.properties.lock
+*.class
+build/resources/main/application.properties
+build/resources/main/static/app.css
+build/resources/main/static/flags/Ecuador.png
+build/resources/main/static/flags/France.png
+build/resources/main/static/flags/India.png
+build/resources/main/static/flags/Italy.png
+build/resources/main/static/flags/Kenya.png
+build/resources/main/templates/detail.html
+build/resources/main/templates/index.html
