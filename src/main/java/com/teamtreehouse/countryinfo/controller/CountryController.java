@@ -19,13 +19,13 @@ public class CountryController {
     public String listCountries(ModelMap modelMap){
         List<Country> countries = countryRepository.getAllCountries();
         modelMap.put("countries", countries);
-        return "countries";
+        return "index";
     }
 
     @RequestMapping("/countries/{name}")
     public String countryDetails(@PathVariable String name, ModelMap modelMap){
         Country country = countryRepository.getCountryByName(name);
         modelMap.put("country", country);
-        return "country";
+        return "detail";
     }
 }
