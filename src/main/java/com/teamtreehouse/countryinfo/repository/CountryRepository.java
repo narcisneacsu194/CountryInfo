@@ -10,11 +10,11 @@ import java.util.List;
 public class CountryRepository {
     private static final List<Country> ALL_COUNTRIES =
             Arrays.asList(
-                    new Country("India", 1276267000, "New Delhi", Arrays.asList("Hindi", "English")),
-                    new Country("Kenya", 45010056, "Nairobi", Arrays.asList("English", "Kiswahili")),
-                    new Country("Ecuador", 16144000, "Quito", Arrays.asList("Spanish")),
-                    new Country("France", 66736000, "Paris", Arrays.asList("French")),
-                    new Country("Italy", 60674003, "Rome", Arrays.asList("Italian"))
+                    new Country("India", "1,276,267,000", "New Delhi", Arrays.asList("Hindi", "English")),
+                    new Country("Kenya", "45,010,056", "Nairobi", Arrays.asList("English", "Kiswahili")),
+                    new Country("Ecuador", "16,144,000", "Quito", Arrays.asList("Spanish")),
+                    new Country("France", "66,736,000", "Paris", Arrays.asList("French")),
+                    new Country("Italy", "60,674,003", "Rome", Arrays.asList("Italian"))
             );
 
     public List<Country> getAllCountries(){

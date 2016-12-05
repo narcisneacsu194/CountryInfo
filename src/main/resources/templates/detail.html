@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" th:href="@{'app.css'}" />
+    <link rel="stylesheet" th:href="@{'/app.css'}" />
 
     <title th:text="${country.name}"></title>
 </head>
@@ -28,8 +28,7 @@
             <div class="stat">
                 <h4>Official Languages</h4>
                 <ul>
-                    <li th:each="language : ${languages}">
-                        <p th:text="${language}"></p>
+                    <li th:each="language : ${languages}" th:text="${language}">
                     </li>
                 </ul>
             </div>
