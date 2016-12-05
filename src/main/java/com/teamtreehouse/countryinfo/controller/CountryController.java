@@ -25,7 +25,9 @@ public class CountryController {
     @RequestMapping("/countries/{name}")
     public String countryDetails(@PathVariable String name, ModelMap modelMap){
         Country country = countryRepository.getCountryByName(name);
+        List<String> languages = country.getLanguages();
         modelMap.put("country", country);
+        modelMap.put("languages", languages);
         return "detail";
     }
 }
