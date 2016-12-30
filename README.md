@@ -1,4 +1,4 @@
-# CountryInfo
+# Country Info
 
 This is a website that displays information about five countries.
 
